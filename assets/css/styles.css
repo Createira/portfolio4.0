@@ -11,12 +11,13 @@
   --font-bold: 700;
 
   /* ===== Colors ===== */
-  --first-color: #d17b88;
-  --first-color-dark: #92565f;
-  --first-color-darken: #2a191b;
-  --text-color: #000;
-  --first-color-light: #ffe8cc;
-  --first-color-lighten: #fffafa;
+  --first-color: #ffa94d;
+  --first-color-dark: #ff922b;
+  --first-color-darken: #e67700; 
+  --text-color: rgb(255, 255, 255);
+  --first-color-light: #ffe8cc; 
+  --first-color-lighten: #011627;
+  --background-color: #011627;
 
   /* ===== Font and Typography ===== */
   --body-font: "Poppins", sans-serif;
@@ -65,7 +66,8 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  background-color: var(--first-color-lighten);
+  /* background-color: var(--first-color-lighten); */
+  background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
 }
@@ -502,7 +504,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(209, 123, 136, 0.7);
+  background: #ffa94dad;
   border-radius: 0.5rem;
   transition: 0.3s;
 }
@@ -534,15 +536,6 @@ img {
   background-color: var(--first-color-darken);
   color: var(--first-color-lighten);
   text-align: center;
-}
-
-.footer__title {
-  margin-bottom: var(--mb-2);
-  font-size: var(--h1-font-size);
-}
-
-.footer__description {
-  margin-bottom: var(--mb-2);
 }
 
 .footer__social {
@@ -649,5 +642,10 @@ img {
   .works__container,
   .certificate__container {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer__link {
+    padding: 0.5rem;
+    font-size: 2rem;
   }
 }

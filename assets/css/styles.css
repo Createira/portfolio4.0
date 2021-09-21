@@ -632,6 +632,11 @@ img {
     height: 100vh;
   }
 
+  .home__social-link {
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
   .section {
     padding: 3rem 0 2rem;
   }

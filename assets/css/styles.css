@@ -14,7 +14,7 @@
   --first-color: #ffa94d;
   --first-color-dark: #ff922b;
   --first-color-darken: #e67700; 
-  --text-color: rgb(255, 255, 255);
+  --text-color: #fff;
   --first-color-light: #ffe8cc; 
   --first-color-lighten: #011627;
   --background-color: #011627;
@@ -66,7 +66,6 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  /* background-color: var(--first-color-lighten); */
   background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -173,11 +172,11 @@ img {
 }
 
 .nav__item {
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-3);
 }
 
 .nav__link {
-  font-size: 1rem;
+  font-size: var(--normal-font-size);
   text-transform: uppercase;
   color: var(--first-color-lighten);
   font-weight: var(--font-bold);
@@ -618,7 +617,12 @@ img {
   }
 
   .nav__menu {
+    width: 25%;
     left: 0;
+  }
+
+  .nav__link {
+    font-size: var(--h3-font-size);
   }
 
   .home__container {

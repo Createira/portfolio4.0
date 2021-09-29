@@ -617,11 +617,12 @@ img {
   }
 
   .nav__menu {
-    width: 25%;
+    width: 20%;
     left: 0;
   }
 
   .nav__link {
+    margin-left: 25px;
     font-size: var(--h3-font-size);
   }
 

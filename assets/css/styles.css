@@ -401,7 +401,7 @@ img {
 }
 
 .skills__js {
-  width: 20%;
+  width: 80%;
 }
 
 .skills__communication {
@@ -430,13 +430,13 @@ img {
   grid-template-columns: 1fr max-content 1fr;
 }
 
-.education__year,
+.education__university,
 .education__race {
   margin-bottom: 0.25rem;
   font-size: var(--h3-font-size);
 }
 
-.education__university,
+.education__year,
 .education__speciality {
   display: block;
   font-size: var(--smaller-font-size);

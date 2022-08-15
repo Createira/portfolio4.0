@@ -401,7 +401,11 @@ img {
 }
 
 .skills__js {
-  width: 80%;
+  width: 90%;
+}
+
+.skills__react {
+  width: 70%;
 }
 
 .skills__communication {
